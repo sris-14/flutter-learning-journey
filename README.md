@@ -7,4 +7,19 @@ understand:
 3. operators  
 4. DataTypes   
    
-tomorrow: *loops*, *functions*, *classes*
+tomorrow: *loops*
+
+---
+
+## Day2
+Learn: Loops   
+
+understand:   
+1. control flow examples
+2. Loops use case
+3. difference  
+   
+tomorrow: *functions*, *classes*
+
+---
+
