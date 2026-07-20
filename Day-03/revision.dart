@@ -114,14 +114,107 @@ void main(){
    //12. swap first and last digits of a number.
   n = 789;
   first = n;
-  int rev = 0;
-  while(first>0){
-
-    int last = first % 10;
-    rev = (rev *10)+ last;
+  while(first>=10){
     first = first ~/10;
   }
+  last = n%10;
+  int middle = n%100; // 89
+  int swapped = last*100 + middle - last + first; // 9*100 + 89 - 9 + 7 = 900 + 89 - 9 + 7 = 987
+  print('swapped = $swapped');
+
+
+  // 13. calculate sum of digits of a number.
+  n = 789;
+  sum = 0;
+  while(n>0){
+    int last = n%10;
+    sum+=last;
+    n = n~/10;
+  }
+  print(sum);
+
+
+  // 14.  calculate product of digits of a number.
+  n = 789;
+  int prod = 1;
+    while(n>0){
+    int last = n%10;
+    prod *=last;
+    n = n~/10;
+  }
+print(prod);
+
+  // 15. Write a program to check whether a number is palindrome or not.
+  n = 789;
+  first = n;
+  int rev = 0;
+  while(first>0){
+    int last = first%10;
+    rev = (rev*10)+last;
+    first = first~/10;
+  }
+  
   print(rev);
+
+
+  // 16. Write a program to print all Armstrong numbers between 1 to n.
+  // import 'dart:math';
+// void main() {
+  n = 153;
+  int numb = n;
+  // int digitCount = n.toString().length;
+  int armsNum = 0;
+  while(numb>0){
+    // int digit = numb % 10;
+    // int result = pow(digit,digitCount).toInt();
+    // armsNum +=result;
+    numb = numb ~/10;
+    
+  }
+  if(armsNum == n){
+    print('Yes, armstrong no : $armsNum');
+  } else{
+    print('$armsNum is not an armstrong number');
+  }
+
+  main2();
+
+
+
+
+}
+// }
+
+
+
+void main2() {
+
+  // 17. a number and print its reverse.
+  int n = 253;
+  int numb = n;
+  int rev = 0;
+  while(n>0){
+     numb = n%10;
+    rev = rev*10+numb;
+    n = n~/10;
+  }
   
-  
+  print(rev);
+
+
+  //18. check whether a number is palindrome or not.
+  n = 253;
+  numb = n;
+  rev = 0;
+  while(numb>0){
+    int last = numb%10;
+    rev = (rev*10) +last;
+    numb = numb~/10;
+  }
+ if(rev == n){
+  print("Yes, $n is a palindrome number");
+ } else {
+  print("No, $n is not a palindrome number");
+ }
+
 }
