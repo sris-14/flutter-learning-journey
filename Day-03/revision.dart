@@ -217,4 +217,9 @@ void main2() {
   print("No, $n is not a palindrome number");
  }
 
+
+//19.frequency of each digit in a given integer.
+
+//20.enter a number and print it in words.
+print(n.toString());
 }
