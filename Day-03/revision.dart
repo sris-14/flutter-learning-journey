@@ -219,7 +219,19 @@ void main2() {
 
 
 //19.frequency of each digit in a given integer.
-
+int count = 0;
+n = 122341565;
+for(int i=0; i<=9; i++){
+  count = 0;
+  numb = n;
+  while(numb>0){
+    int last = numb%10;
+    if(last == i){
+      count ++;
+    }
+  }
+  print('frequency of $i = $count');
+}
 //20.enter a number and print it in words.
 print(n.toString());
 }
