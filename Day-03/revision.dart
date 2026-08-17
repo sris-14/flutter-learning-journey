@@ -233,5 +233,7 @@ for(int i=0; i<=9; i++){
   print('frequency of $i = $count');
 }
 //20.enter a number and print it in words.
-print(n.toString());
+print(n.toString()); 
+
+// 21. factorial of a number
 }
