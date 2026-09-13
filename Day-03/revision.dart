@@ -236,4 +236,5 @@ for(int i=0; i<=9; i++){
 print(n.toString()); 
 
 // 21. factorial of a number
+
 }
