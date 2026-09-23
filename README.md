@@ -23,3 +23,6 @@ tomorrow: *functions*, *classes*
 
 ---
 
+## Day3
+
+revision of covered topics
