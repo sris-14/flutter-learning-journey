@@ -26,3 +26,9 @@ tomorrow: *functions*, *classes*
 ## Day3
 
 revision of covered topics
+
+## Day4
+
+restart and revised
+
+
